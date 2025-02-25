@@ -3,7 +3,7 @@ package com.example.Truper.Model.DTO;
 public class ProductoWOfk {
     private String codigo;
     private String descripcion;
-    private int precio;
+    private float precio;
 
     public String getCodigo() {
         return codigo;
@@ -21,11 +21,11 @@ public class ProductoWOfk {
         this.descripcion = descripcion;
     }
 
-    public int getPrecio() {
+    public float getPrecio() {
         return precio;
     }
 
-    public void setPrecio(int precio) {
+    public void setPrecio(float precio) {
         this.precio = precio;
     }
 }

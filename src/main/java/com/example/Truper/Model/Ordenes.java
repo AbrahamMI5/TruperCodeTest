@@ -19,7 +19,7 @@ public class Ordenes {
     @Column(nullable = false)
     private Date fecha;
     @Column(nullable = false)
-    private int total;
+    private float total;
 
     public Integer getOrdenId() {
         return ordenId;
@@ -37,11 +37,11 @@ public class Ordenes {
         this.fecha = fecha;
     }
 
-    public int getTotal() {
+    public float getTotal() {
         return total;
     }
 
-    public void setTotal(int total) {
+    public void setTotal(float total) {
         this.total = total;
     }
 

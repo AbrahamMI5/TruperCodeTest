@@ -21,6 +21,7 @@ public class Productos {
     private String descripcion;
     @Column(nullable = false)
     private int precio;
+    //TODO: Volverlo float
 
     public Integer getProductoId() {
         return productoId;

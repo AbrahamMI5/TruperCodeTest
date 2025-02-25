@@ -30,7 +30,7 @@ public abstract class GenericController<T, ID> {
         return service.create(entity);
     }
 
-    @PostMapping("/update")
+    @PutMapping("/update")
     public ResponseEntity<T> update(@RequestBody T entity) {
         return service.update(entity);
     }

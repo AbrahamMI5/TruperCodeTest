@@ -27,7 +27,7 @@ public class OrdenesController extends GenericController<Ordenes, Integer> {
     }
 
     @GetMapping("/findOrdenCompra/{id}")
-    public ResponseEntity<OrdenCompra> createOrden(@PathVariable Sucursales sucursal){
-        return ordenesService.getOrden(sucursal);
+    public ResponseEntity<OrdenCompra> createOrden(@PathVariable Integer id){
+        return ordenesService.getOrden(id);
     }
 }

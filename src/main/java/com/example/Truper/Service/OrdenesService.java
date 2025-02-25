@@ -7,5 +7,5 @@ import org.springframework.http.ResponseEntity;
 
 public interface OrdenesService extends GenericService<Ordenes, Integer> {
     ResponseEntity<OrdenCompra> createOrden(OrdenCompra ordenCompra);
-    ResponseEntity<OrdenCompra> getOrden(Sucursales sucursal);
+    ResponseEntity<OrdenCompra> getOrden(Integer id);
 }

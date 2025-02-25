@@ -7,22 +7,22 @@ import com.example.Truper.Model.Sucursales;
 import java.util.List;
 
 public class OrdenCompra {
-    private Ordenes ordenes;
-    private List<Productos> productosList;
+    private Ordenes orden;
+    private List<ProductoWOfk> productosList;
 
-    public Ordenes getOrdenes() {
-        return ordenes;
+    public Ordenes getOrden() {
+        return orden;
     }
 
-    public void setOrdenes(Ordenes ordenes) {
-        this.ordenes = ordenes;
+    public void setOrden(Ordenes orden) {
+        this.orden = orden;
     }
 
-    public List<Productos> getProductosList() {
+    public List<ProductoWOfk> getProductosList() {
         return productosList;
     }
 
-    public void setProductosList(List<Productos> productosList) {
+    public void setProductosList(List<ProductoWOfk> productosList) {
         this.productosList = productosList;
     }
 }
